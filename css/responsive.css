@@ -1,0 +1,79 @@
+/* smart phone iphone6/7/8 only */
+@media all and (max-width: 400px) {
+  /* all */
+  body {
+    font-size: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 12px;
+  }
+  
+  /* header */
+  .main-msg {
+      font-size: 20px;
+  }
+  
+  .sub-msg  {
+      font-size: 12px;
+  }
+
+  /* navi */
+  .nav {
+    height: 30px;
+  }
+  .logo:first-child {
+    height: 25px;
+    margin-right: auto;
+  }
+  .navi-item li {
+      margin-right: 8px;
+  }
+
+  /* about */
+  .about h1 {
+    margin-top: 24px;
+  }
+
+  /* course */
+  .course1-exp, .course3-exp {
+    margin-left: 12px;
+  }
+  .course2-exp {
+    margin-right: 12px;
+  }
+
+  /* news */
+  .article li:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  /* access */
+  #access {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  table.access {
+    width: 375px;
+  }
+  .access td {
+    width: 80px;
+    padding: 0 0 12px 12px;
+  }
+
+
+  /* contact */
+  .contact {
+    width: 100%;
+  }
+  input.text, input.detail {
+    width: 257px;
+  }
+  .check-label {
+    margin-left: 5px;
+  }
+  .submit {
+    margin: 20px 0;
+  }
+
+}
